@@ -1,0 +1,8 @@
+Nav bar:
+Times New Roman
+nomal
+400
+16px
+22px line height
+
+
