@@ -1,8 +1,143 @@
-/*
-Colors:
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header {
+    position: fixed;
+    left: 0; right: 0;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 36px;
+}
+.navbar {
+    display: flex;
+    font-size: 1.3rem;
+    padding: .5rem 1.5rem;
+}
 
-*/
+.navbar li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+img {
+    width: 9rem;
+}
+
+.image-container {
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+    font-size: 100px; 
+    /* position: fixed; */
+}
+.image-container img {
+    width: 86rem;
+    height: 40rem;
+}
+
+.spotify {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    text-decoration: underline solid green;
+    text-underline-offset: .8rem;
+}
+
+.head {
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    font-family: 'Segoe UI';
+    font-size: 4rem;
+}
+
+.below {
+    color: white;
+    text-align: center;
+    padding-top: 1.5rem;
+    font-weight:normal;
+    font-family: 'Segoe UI';
+    font-size: 1.5rem; 
+}
+
+.spot-music {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 3rem;
+    margin-top: 2rem; 
+}
+
+h5 {
+    color: rgb(26, 177, 106);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-family: 'Segoe UI';
+}
+
+.middle {
+    padding-top: 15px;
+}
+
+.dev {
+    text-align: center;
+}
+
+p {
+    font-family: 'Segoe UI';
+    padding-top: 0px;
+    color: black;
+}
+
+.footer {
+    background-color: rgb(26, 177, 106);
+    height: 32rem;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.browse > p {
+    color: white;
+    padding-left: 5rem;
+    font-weight: lighter;
+}
+
+.kanye {
+    color: white;
+    font-weight:500;
+    padding: 1rem 0px 0px 5rem;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+h4 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    padding: 3rem 0px 3rem 5rem;
+    text-decoration: underline;
+    text-underline-offset: .8rem;
+}
+
+.spot-icon {
+    padding-left: 10rem;
+    /* width: 15rem; */
+    /* height: 25rem; */
+    margin-top: 10rem;
+}
+
+.spot-app {
+    padding-left: 17rem;
+    width: 15rem;
+    height: 25rem;
+    margin-top: 4rem;
+}
