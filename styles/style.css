@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root {
+    --text-color: #1A1A1A;
+    --green-color: #00B172;
+    --white-color: #FFF;
+  }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+.navbar .nav-links ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar .nav-links ul li{
+    padding-left: 40px;
+    list-style-type: none;
+}
+.navbar .logo img{
+    width: 160px;
+    height: 50px;
+}
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/landing.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    }
+    
+    .container h1{
+        color: white;
+        margin-bottom: 15px;
+        font-size: 90px;
+        
+    }
+
+    .container p{
+        line-height: 1.8rem;
+        font-size: 30px;
+        color: white;
+        margin-top: 0;
+        
+        
+    }
+    
+   .spotifies h1 {
+       text-align: center;
+       
+       
+   }
+
+   .spotifies h1::after {
+    content: "";
+    display: block;
+    width: 25%; 
+    margin: 0 auto;
+    border-bottom: 5px solid var(--green-color); 
+    padding-bottom: 10px; 
+  }
+  .contain{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+
+  }
+
+  .contain .one img{
+      width: 110px;
+      height: 95px;
+      margin: 0 auto;
+  }
+  .contain .one h2{
+      text-align: center;
+      color: var(--green-color);
+  }
+
+ 
+  .green{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: var(--green-color);
+      margin: 60px 100px;
+      padding-top: 40px ;
+      padding-bottom: 40px;
+  }
+  .green .content{
+      display: flex;
+      flex-direction: column;
+      
+
+  }
+
+  .green .content{
+ color: white;
+  }
+
+  .green h1::after {
+    content: "";
+    display: block;
+    width: 100%; 
+    margin: 0 auto;
+    border-bottom: 5px solid white; 
+    padding-bottom: 10px; 
+  }
+
+  .green-container {
+    position: relative;
+  }
+  
+  .green .absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
