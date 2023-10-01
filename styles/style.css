@@ -1,8 +1,156 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+:root {
+    --text-color: #1A1A1A;
+    --green-color: #00B172;
+    --white-color: #FFF;
 
-*/
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+
+    .logo {
+        max-width: 150px;
+    }
+
+    .navigation {
+        list-style-type: none;
+
+        .navItem {
+            display: inline;
+            margin-left: 15px;
+        }
+
+        .navItem:hover {
+            text-decoration: underline;
+        }
+
+        .navItem a {
+            text-decoration: none;
+            color: var(--text-color);
+        }
+    }
+}
+
+.mainPart {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 800px;
+    color: var(--white-color);
+}
+
+.mainPart h1 {
+    font-size: 72px;
+    font-weight: 700;
+    padding-top: 300px;
+}
+
+.mainPart p {
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+.secondSection,
+.thirdSection {
+    margin: 20px;
+    padding: 60px 0px;
+}
+
+.subtitle1,
+.subtitle2 {
+    border-bottom: solid 4px var(--green-color);
+    font-size: 40px;
+    margin: auto;
+    width: 31%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.benefits {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.benefitItem {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    .itemImg {
+        max-width: 15%;
+    }
+
+    .itemTitle {
+        color: var(--green-color);
+        font-size: 30px;
+        padding: 20px 0;
+        font-weight: 700;
+    }
+
+    .itemPar {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+.thirdSection {
+    background-color: var(--green-color);
+
+    .subtitle2 {
+        color: var(--white-color);
+        border-bottom: var(--white-color) 4px solid;
+        width: 100%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+
+        .infoItems {
+            margin-left: 30px;
+        }
+
+        .logoItem,
+        .screenshot {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .whiteLogo {
+            width: 150px;
+            height: 150px;
+        }
+
+        .infoTitle {
+            color: var(--white-color);
+            font-size: 30px;
+            padding: 40px 0;
+        }
+
+        .infoPar {
+            color: var(--white-color);
+            font-size: 18px;
+        }
+
+        .screenshotImg {
+            width: 350px;
+        }
+
+    }
+}
