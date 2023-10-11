@@ -11,16 +11,26 @@ White: #FFF
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    border: 2px solid gold;
+    height: 80px;
 }
 
 nav{
-    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid rebeccapurple;
+    width: 100%;
+    position: fixed;
+    background-color: whitesmoke;
+}
+
+nav div{
+    border: 1px solid red;
     display: flex;
 }
 
@@ -32,4 +42,30 @@ nav span{
 .logo img{
    border: 2px solid violet;
    width: 200px;
+}
+
+.landing-page{
+    display: flex;
+    color: whitesmoke;
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landing-page h1{
+    font-size: 50px;
+}
+
+.landing-page p{
+    margin-top: 10px;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 100;
 }
