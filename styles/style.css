@@ -1,50 +1,45 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+:root {
+    --text-color: #1A1A1A;
+    --green-color: #00B172;
+    --white-color: #FFF;
+}
 
-*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --gren-color:
 }
 
-header{
-    border: 2px solid gold;
+header {
     height: 80px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border: 2px solid rebeccapurple;
     width: 100%;
     position: fixed;
-    background-color: whitesmoke;
+    background-color: var(--white-color);
 }
 
-nav div{
-    border: 1px solid red;
+nav div {
     display: flex;
 }
 
-nav span{
-    border: 2px solid red;
+nav span {
     margin: 20px;
 }
 
-.logo img{
-   border: 2px solid violet;
-   width: 200px;
+.logo img {
+    width: 200px;
 }
 
-.landing-page{
+.landing-page {
     display: flex;
     color: whitesmoke;
     background-image: url(/images/landing.jpg);
@@ -59,13 +54,66 @@ nav span{
     flex-direction: column;
 }
 
-.landing-page h1{
+.landing-page h1 {
     font-size: 50px;
 }
 
-.landing-page p{
-    margin-top: 10px;
+.landing-page p {
+    margin-top: 25px;
     width: 40%;
     font-size: 20px;
     font-weight: 100;
+}
+
+
+
+footer {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: var(--green-color);
+    margin: 0 50px;
+    color: var(--white-color)
+}
+
+footer h3 {
+    border-bottom: 3px solid var(--white-color);
+    width: 310px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+footer #white-icon img {
+    margin-left: 140px;
+    max-width: 40%;
+}
+
+.container-1 {
+    height: 500px;
+}
+
+ .container-1 div {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    padding-bottom: 20px;
+}
+
+#spotify-app img {
+    width: 350px;
+    height: 500px;
+    margin-right: 60px;
 }
