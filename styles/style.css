@@ -6,3 +6,30 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav{
+    border: 2px solid green;
+    display: flex;
+}
+
+nav span{
+    border: 2px solid red;
+    margin: 20px;
+}
+
+.logo img{
+   border: 2px solid violet;
+   width: 200px;
+}
