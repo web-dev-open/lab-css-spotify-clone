@@ -1,11 +1,3 @@
-
-:root {
-    --text-color: #1A1A1A;
-    --green-color: #00B172;
-    --white-color: #FFF;
-}
-
-
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +6,29 @@
     --gren-color:
 }
 
+:root {
+    --text-color: #1A1A1A;
+    --green-color: #00B172;
+    --white-color: #FFF;
+}
+
+
+
+
 header {
     height: 80px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 nav {
@@ -65,10 +78,62 @@ nav span {
     font-weight: 100;
 }
 
+.mid-container{
+    margin: 50px 20px;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    margin-inline: auto;
+    border-bottom: 0.13rem solid var(--green-color);
+}
+
+
+.mid-container div div{
+    width: 280px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+
+.sections{
+    display: flex;
+    padding: 50px;
+    width: 70%;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+figure img{
+    display: flex;
+    max-width: 100px;
+    margin: 0 auto;
+
+}
+
+figcaption{
+    color:  var(--green-color);
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.fig-description{
+    text-align: center;
+}
 
 
 footer {
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -81,12 +146,14 @@ footer {
 
 footer h3 {
     border-bottom: 3px solid var(--white-color);
-    width: 310px;
+    width: 340px;
     text-align: center;
     margin-bottom: 30px;
+    font-size: 20px;
 }
 
 h4 {
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -97,6 +164,7 @@ footer #white-icon img {
 
 .container-1 {
     height: 500px;
+    width: 800px;
 }
 
  .container-1 div {
