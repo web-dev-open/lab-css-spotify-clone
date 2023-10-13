@@ -6,3 +6,121 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.brand-logo img {
+    max-width: 180px;
+    margin: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-evenly;
+    color: #1A1A1A;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+.front img {
+    max-width: 100%;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+
+.psec {
+    border-bottom: 3px solid #00B172;
+    font-size: 1.5rem;
+    border-radius: 1.5px;
+}
+
+.subsec img {
+    max-width: 150px;
+}
+
+.subsec {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 230px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    color: #1A1A1A;
+    padding-left: 10px;
+}
+
+.box h2 {
+    color: #00B172;
+}
+
+.sec3 {
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.app img {
+    max-width: 270px;
+}
+
+.app {
+    margin: 50px;
+}
+
+.text {
+    padding: 20px;
+    width: 300px;
+}
+
+.psec2 {
+    border-bottom: 2px solid #FFF;
+}
+
+.centered, .centered2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.centered {
+    top: 75%;
+    font-size: 70px;
+}
+
+.centered2 {
+    top: 93%;
+    font-size: 20px;
+    width: 500px;
+}
