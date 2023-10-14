@@ -46,7 +46,28 @@ body {
 }
 
 /* Main Content Styles */
+.image-content{
+    background-image: url(../images/landing.jpg);
+   background-size: cover;
+   background-position: center;
+   color: #ffffff;
+   padding: 400px;
+   text-align: center;
+    margin: 0;
+}
+.image-content h1{
+    font-size: 60px;
+}
 
+.image-content h2{
+    font-size: 20px;
+}
+.spotify{
+    text-align: center;
+    padding: 40px;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
 
 /* Music Icon Styles */
 
