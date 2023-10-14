@@ -12,6 +12,7 @@ body, h1, h2, p, ul, li, button {
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -130,4 +131,23 @@ body {
 .green-left-section-header{
     font-size: 30px;
     padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-nav ul {
+        margin-top: 20px;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .music-icon {
+        margin: 20px;
+    }
 }
