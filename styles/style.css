@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  color: #1a1a1a;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+header {
+  /* border: 1px solid #1a1a1a; */
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  z-index: 10;
+  padding: 0 25px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin-left: 25px;
+}
+
+.landing {
+  position: relative;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: url(../images/landing.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.landing p {
+  font-size: 2rem;
+  font-weight: 300;
+  width: 70%;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.songs {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.songs h2 {
+  text-align: center;
+  width: fit-content;
+  padding: 0;
+  padding-bottom: -30px;
+  text-align: center;
+  border-bottom: 4px solid #00b172;
+  margin-bottom: 30px;
+}
+
+.songs__container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.song__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.song__item {
+  width: calc((100% - 40px) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icons {
+  width: 100px;
+  height: 100px;
+}
+
+.song__item-title {
+  margin: 10px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #00b172;
+}
+
+.discover {
+  color: #fff;
+  font-weight: 300;
+  height: fit-content;
+  margin: 0 25px;
+  padding: 50px;
+  background: #00b172;
+  height: fit-content;
+}
+
+.discover__container {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.discover__item {
+  width: calc((100%) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discover__item:nth-child(2) {
+  align-self: center;
+}
+
+.discover__item-text {
+  margin-top: 40px;
+}
+
+.discover__app {
+  height: 100%;
+  width: 100%;
+}
