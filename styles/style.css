@@ -15,7 +15,6 @@ White: #FFF
 
 body {    
     font-family: Arial, sans-serif;
-    overflow-x:calc(-1);
 }
 
 /* Navigation Menu */
@@ -72,7 +71,62 @@ nav img {
     height: auto;
 }
 
+@media (max-width: 800px) {
+    body {
+        margin: 20px;
+    }
+}
 
-  div {
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: column;
+        padding: 20px;
+    }
+
+    nav a {
+        padding: 0.5em 0;
+    }
+
+    ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+/* Styles for the hero image */
+.hero-section img {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Styles for the centered text */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Additional styles for the text inside the hero section */
+.hero-text h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.hero-text p {
+    color: white;
+    font-size: 24px;
+}
+
+div {
     padding: 80px;
   }
