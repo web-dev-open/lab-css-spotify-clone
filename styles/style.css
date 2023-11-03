@@ -131,6 +131,8 @@ nav img {
 .section2-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 75px;
+    padding: 50px;
 }
 
 .section2-container img {
@@ -141,7 +143,7 @@ nav img {
 .section2-column {
     flex: 1;
     text-align: center;
-    font-size: 21px;    
+    font-size: 30px;    
 }
 
 .section2-column h3 {
@@ -150,18 +152,70 @@ nav img {
 
 section h2 {
     margin: 15px;
-    margin-bottom: -100px;
+    margin-bottom: 50px;
     text-align: center;
-    font-size: 60px;
-    font-size: 30px;
+    font-size: 40px;
     color: #111;
     text-decoration:underline;
-    text-underline-offset: 10px;
+    text-underline-offset: 15px;
     text-decoration-color: #1ED760;
     text-decoration-thickness: 3px;
 }
 
+/* Image Container - Section 3 */
+.section3-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1ED760;
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
 
-div {
-    padding: 80px;
-  }
+.section3-column {
+    margin: 40px;
+    flex: 1;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+.section3-column h3 {
+    font-size: 30px;
+    padding: 40px 0 25px 0;
+}
+
+.section3-column:not(:last-child) {
+    margin-right: 0px;
+}
+
+.logo {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.logo-container img {
+    width: 8vw;
+    height: auto;
+}
+
+.app-container img {
+    width: 40vh;
+    height: auto;
+    margin: -15px 20px 10px 260px;
+}
+
+.section3-container h2 {
+    margin: 0px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    text-decoration:underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 3px;
+}
