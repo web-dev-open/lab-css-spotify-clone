@@ -87,18 +87,14 @@ a{
     background-color: #00B172;
     margin:0 20px;
     position: relative;
+    height:700px;
 }
 .listen{
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-}
-.listen img{
     width:30%;
 }
-.listen div{
-    margin-top:50px;
-    width:300px;
+#app{
+    width:350px;
+    float: right;
 }
 .listen div p, .listen div h2{
     color:white;
@@ -108,10 +104,14 @@ a{
     padding-bottom:5px;
     border-bottom:3px solid white;
     display:inline;
+    font-size: 30px;
 }
 
-.listen div div h2{
-    margin:30px 0;
+.listen div h2{
+    margin:40px 0;
+}
+.listen div p{
+    font-size: 20px;
 }
 #icon{
     width:150px;
