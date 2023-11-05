@@ -1,8 +1,122 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+.navbar{
+    width:100%;
+    padding:10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index:2;
+}
+.navbar img{
+    width:150px;
+}
+.navbar ul li{
+    list-style: none;
+    margin:0 10px;
+    display: inline-block;
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.landingPage{
+    width:100%;
+    height:100vh;
+    background-image: url("../images/landing.jpg");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landingPage h1{
+    color:white;
+    font-size:55px;
+    margin:15px 0;
+}
+.landingPage div p{
+    color:white;
+    padding:20px;
+    font-weight: lighter;
+}
+.landingPage div{
+    text-align: center;
+    width:520px;
+}
+#whatBox{
+    text-align: center;
+    padding:5% 0;
+}
+.special{
+    font-size: 30px;
+    padding:5px 0;
+    display: inline;
+    border-bottom: 5px solid #00B172;
+}
+.container{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    padding:50px 0;
+}
+.container div{
+    text-align: center;
+    width:250px;
+}
+.pic{
+    height:60%;
+}
+.container img{
+    width:200px;
+}
+.container h1{
+    color:#00B172;
+    margin:18px 0;
+}
+#section3{
+    padding:40px 80px;
+    background-color: #00B172;
+    margin:0 20px;
+    position: relative;
+}
+.listen{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.listen img{
+    width:30%;
+}
+.listen div{
+    margin-top:50px;
+    width:300px;
+}
+.listen div p, .listen div h2{
+    color:white;
+}
+.heading{
+    color:white;
+    padding-bottom:5px;
+    border-bottom:3px solid white;
+    display:inline;
+}
 
-*/
+.listen div div h2{
+    margin:30px 0;
+}
+#icon{
+    width:150px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
