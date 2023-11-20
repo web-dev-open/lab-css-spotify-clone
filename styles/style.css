@@ -6,3 +6,116 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    background-image: url('/lab-css-spotify-clone/images/landing.jpg');
+    height: 655px;
+    background-position: center;
+    background-size: contain;
+}
+.logo img{
+    height: 60px;
+}
+.nav{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+.navc ul{
+    list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: large;
+}
+.imgcon{
+    height: 655px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.imgcon :first-child{
+    font-size: 70px;
+    padding: 32px;
+}
+.imgcon span{
+    font-size: 25px;
+}
+.second{
+ height: 400px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+    
+}
+.second h1{
+    border-bottom: 4px solid green;
+    padding: 6px;
+}
+.media{
+    display: flex;
+    gap: 2rem;
+    padding: 40px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(226, 226, 27);
+    height: 270px;
+    width: 350px;
+}
+.box img{
+    height: 110px;
+    width: 110px;
+}
+.box h2{
+    font-size:x-large;
+    color: rgb(67, 163, 67);
+    padding: 10px;
+}
+.box span{
+    font-size: 15px;
+    padding: 4px;
+}
+.third{
+    height: 500px;
+    background-color: rgb(67,163,67);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+.wimage{
+    height: 100px;
+    position: relative;
+    right: 100px;
+    
+}
+.app img{
+    height: 400px;
+}
+.content span{
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    padding: 3px;
+}
+.content h4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
