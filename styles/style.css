@@ -1,8 +1,168 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 40px; 
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 40px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(26, 18, 18);
+  }
 
-*/
+  .large-image {
+    position: relative;
+}
+
+.large-image h1 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+}
+.large-image p{
+    position: absolute;
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+}
+
+.large-image img{
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+  }
+  
+  .large-image h1 {
+    font-size: 3em;
+    justify-content: center;  }
+  
+  .large-image p {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+
+
+.para2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: green;
+  }
+  
+  .para3 div {
+    flex: 0 0 30%;
+  }
+  
+  .para3{
+    display: flex;
+    font-size: 25px;
+    margin-left: 100px;
+  }
+  .para3 img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+  }
+  
+  .para3 h2 {
+    margin-top: 20px;
+    display: block;
+    color:green;
+    text-align: center;
+  }
+  
+  .para3 p {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+  }
+
+  .box1, .box2, .box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.last {
+    position: relative;
+    background-color: #1DB954;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    height: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .last2 img {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    left: 50%;
+    transform: translateY(-50%,-50%);
+    max-width: 100%;
+    height: 100px;
+    justify-content: center;
+  }
+  
+  .last3 img {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    max-width: 50%;
+    height: 700px;
+  }
+  .last h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+  }
+  
+  .last p {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  #theme{
+    font-size: 50px;
+    text-decoration: underline;
+
+  }
+  .last1{
+    margin-left: 50px;
+  }
