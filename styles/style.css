@@ -1,8 +1,179 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    line-height: 1;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    z-index: 1;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    margin-left: 40px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.landing-page {
+    background: url(/images/landing.jpg) center/cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    color: #fff;
+    padding: 300px 0 350px;
+    display: flex;  
+}
+
+.landing-content h1{
+    font-size: 4.5em;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+.landing-content p{
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.second-section {
+    margin: 50px auto 80px;
+}
+
+.second-section-heading {
+    border-bottom: 5px solid #00b172;
+    width: fit-content;
+    margin: 20px auto;
+    padding-bottom: 10px;  
+    font-size: 2em; 
+}
+
+.second-section-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.features {
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+.features img {   
+    height: 100px;
+}
+
+.features h4 {
+    color: #00B172;
+    font-size: 26px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.features p {
+    font-size: 24px;
+    padding: 15px;
+    line-height: 1.4;
+}
+
+.green-section {
+    background-color: #00B172;
+    color: #fff;
+    margin: 38px;
+    padding: 85px;
+    height: 760px;
+}
+
+.green-section-header {
+    border-bottom: 4px solid #fff;
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+.green-section-content {
+    float: left;
+    width: 40%;
+}
+
+.green-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 328px;
+    height: auto;
+    margin: 50px 0;
+}
+
+.green-feature h3 {
+    font-size: 28px;
+    margin-bottom: 27px;
+}
+
+.green-feature p {
+    width: 298px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.green-section-icon {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 500px;
+    align-items: center;
+}
+
+.green-section-icon img {
+    width: 125px;
+}
+
+.spotify-player {
+    float: left;
+    width: 30%;
+    padding: 0 75px;
+}
+
+.spotify-player img {
+    width: 325px;
+    height: 550px;
+}
