@@ -1,8 +1,267 @@
-/*
-Colors:
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+}
 
-*/
+/* Style the navbar */
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 20px;
+  position: sticky;
+  width: 100vw;
+  height: 6vh;
+  
+}
+
+.logo img {
+  width: 10vw; /* Adjust the size as needed */
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 10px 20px;
+
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+
+}
+
+/* Style the main content */
+.Home_page {
+ text-align: center;
+ position: relative; /* Add relative positioning to the container */
+ overflow: hidden;
+}
+
+.coverimg {
+ position: static; /* Add relative positioning to the container */
+}
+
+.coverimg img {
+ width: 100%;
+ max-height: auto; /* Adjust the size as needed */
+ object-fit: cover;
+ /* overflow: hidden; */
+}
+
+.content {
+ position: absolute;
+ top: 40%; /* Position it in the middle vertically */
+ left: 50%; /* Position it in the middle horizontally */
+ transform: translate(-50%, -50%); /* Center it precisely */
+ color: white; /* Set text color to white */
+ width: 60vw;
+ height: auto;
+}
+
+.content h1 {
+ font-size: 5rem;
+ font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.content p{
+  font-size: 2rem;
+}
+
+/* Style the "What's on Spotify?" section */
+.WhatsonSpotify {
+  background-color: #fff;
+  /* padding: 40px 0; */
+  display: flex;
+  height: auto;
+  width: 100vw;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 5vh;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5vh;
+  width: 100vw;
+  height: auto;
+}
+
+.content-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.content-2 h1{
+  font-size: xx-large;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #1DB954;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 1rem;
+  margin-bottom: 5vh;
+}
+.features .f1,
+.features .f2,
+.features .f3 {
+  text-align: center;
+  width: 33%;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.features h2 {
+  margin-top: 5vh;
+  color: #1DB954;
+  margin-bottom: 5vh;
+  font-size: 2rem;
+}
+
+.features p {
+  font-size: 1.5rem;
+  margin-bottom: 5vh;
+}
+
+
+.main-2{
+  display: flex;
+  flex-direction: row;
+  content: normal;
+  align-items: flex-start;
+  height: auto;
+  width: 100vw;
+  max-width: 100vw;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+  
+}
+.main-2 img{ 
+  width: 10vw;
+  
+}
+
+/* Style the "It’s as yeezy as Kanye West." section */
+.green_section {
+  background-color: #1DB954;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  display: flex;
+  width: 90vw;
+  position: absolute;
+  left: 5vw;
+  flex-wrap: wrap;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  justify-content: space-evenly;
+  
+  
+}
+
+.main-3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+
+.main-3 h1 {
+  /* margin-bottom: 20px; */
+  align-self: flex-start;
+  text-decoration-line: underline;
+  text-underline-offset: 1rem;
+  font-size: 3rem;
+}
+
+.matter{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 2vh;
+}
+
+.matter h2{
+  text-align: left;
+  padding-bottom: 5vh;
+  font-size: 2rem;
+}
+
+.matter p{
+  text-align: left;
+  padding-bottom: 5vh;
+  font-size: 1.3rem;
+  width: 70%;
+}
+
+.slogo img {
+  width: 50px; /* Adjust the size as needed */
+  align-self: center;
+  align-content: center;
+  width: 10vw;
+  position: absolute;
+  top: 40%;
+  right: 40%;
+}
+
+.screenshot img {
+  width: auto;
+  height: 80vh;
+  object-fit: cover;
+  margin-top: 10vh;
+  margin-right: 5vh;
+}
+.feature_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  word-wrap: normal;
+
+}
+
+.feature_content h2 {
+  margin-top: 5vh;
+  align-self: flex-start;
+}
+
+
+
+
+
+
