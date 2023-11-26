@@ -6,3 +6,87 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 8px 0px 0px 8px;
+    background: #FFF;
+    height: 80px;
+    box-sizing: border-box;
+}
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 25px;
+    margin: 0 5px;
+}
+.section img{
+    width: 100%;
+    height: auto;
+}
+.heading{
+    position: absolute;
+    top: 57%;
+    color: #FFF;
+    margin-left: 27%;
+    font-size: xx-large;
+}
+.matter{
+    text-align: center;
+}
+u{
+    color: #00B172;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content-section{
+    flex: 3;
+    margin: 20px 20px;
+    box-sizing: border-box;
+}
+.content-section h2{
+    margin: 15px 0px;
+    font-size: 28px;
+    color: #00B172;
+    font-family: serif;
+}
+.content-section p{
+    font-size: 16px;
+    line-height: 1.5;
+    padding:0px 10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+#clone{
+    height:430px;
+    background-color: #00B172;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.listening{
+    margin-left: 0%;
+    color: #FFF;
+}
+.image img{
+    margin-right: 80px;
+    margin-top: 90%;
+}
+.shoot img{
+    margin-top: 40%;
+}
