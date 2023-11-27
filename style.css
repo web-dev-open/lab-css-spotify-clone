@@ -7,6 +7,7 @@ White: #FFF
 */
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
     /* color: white; */
 }
 #background{
@@ -31,6 +32,7 @@ h1{
 }
 #nav{
     display: flex;
+    
  padding-left: 20px;
  padding-right: 5px;
  background-color: white;
@@ -57,6 +59,7 @@ h2{
     justify-content: space-around;
     width: 1400px;
     margin-bottom: 40px;
+    
 }
 #box1{
     height: 200px;
@@ -107,14 +110,16 @@ item1{
     margin-right: 20px;
     padding: 40px;
     display: flex;
+    
 }
 .navbar{
     height: 40px;
     background-color: white;
     display: flex;
+    
     justify-content: space-between;
     position:fixed;
-    width: 1457px;
+    width: 1474px;
     align-items: center;
 
 }
