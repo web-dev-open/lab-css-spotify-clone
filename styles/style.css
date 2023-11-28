@@ -13,15 +13,18 @@ White: #FFF
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+p {
+  font-size: 1.1rem;
+}
 
 /* navbar */
 nav {
   box-sizing: border-box;
   position: fixed;
   height: 10vh;
+  background-color: white;
   width: 100vw;
   padding: 12px 30px;
-  background-color: aquamarine;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,7 +66,6 @@ li {
 .section2 {
   padding: 3rem 1.25rem;
   margin: auto;
-  /* background-color: blue; */
 }
 .subtitle {
   font-size: 1.3rem;
@@ -97,4 +99,43 @@ li {
   color: #00b172;
   font-size: 1.5rem;
   margin-bottom: 16px;
+}
+
+/* green section */
+.section3 {
+  margin: auto;
+  width: 95vw;
+  background-color: #00b172;
+  padding: 50px 70px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+.white-title {
+  font-size: 1.5rem;
+  color: white;
+  width: fit-content;
+  border-bottom: 3px solid white;
+  padding: 10px 0px;
+}
+.green-section1-container {
+  color: white;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 1.7;
+}
+.green-section2 {
+  align-self: center;
+}
+.green-section2 img {
+  width: 200px;
+}
+.white-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.green-section3 img {
+  height: 100%;
 }
