@@ -6,3 +6,136 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 1.1rem;
+}
+
+/* navbar */
+nav {
+  box-sizing: border-box;
+  position: fixed;
+  height: 10vh;
+  background-color: white;
+  width: 100vw;
+  padding: 12px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > img {
+  height: 100%;
+}
+ul {
+  display: flex;
+  gap: 1.5rem;
+}
+li {
+  list-style: none;
+  font-weight: 500;
+}
+
+/* hero section */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+  background: url(../images/landing.jpg) center/cover no-repeat;
+}
+.title {
+  font-size: 4rem;
+  margin-bottom: 1.2rem;
+}
+.description {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+/* What's on spotify */
+.section2 {
+  padding: 3rem 1.25rem;
+  margin: auto;
+}
+.subtitle {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 10px 0px;
+  margin: auto;
+  width: fit-content;
+  border-bottom: 3px solid #00b172;
+}
+.icons-container {
+  padding: 50px 35px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.icons-container div {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.icon-img {
+  width: 86px;
+  margin-bottom: 20px;
+}
+.green-title {
+  color: #00b172;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+/* green section */
+.section3 {
+  margin: auto;
+  width: 95vw;
+  background-color: #00b172;
+  padding: 50px 70px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+.white-title {
+  font-size: 1.5rem;
+  color: white;
+  width: fit-content;
+  border-bottom: 3px solid white;
+  padding: 10px 0px;
+}
+.green-section1-container {
+  color: white;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 1.7;
+}
+.green-section2 {
+  align-self: center;
+}
+.green-section2 img {
+  width: 200px;
+}
+.white-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.green-section3 img {
+  height: 100%;
+}
