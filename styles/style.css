@@ -11,9 +11,10 @@ White: #FFF
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* navbar */
 nav {
   box-sizing: border-box;
   position: fixed;
@@ -35,4 +36,25 @@ ul {
 li {
   list-style: none;
   font-weight: 500;
+}
+
+/* hero section */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+  background: url(../images/landing.jpg) center/cover no-repeat;
+}
+.title {
+  font-size: 4rem;
+  margin-bottom: 1.2rem;
+}
+.description {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
