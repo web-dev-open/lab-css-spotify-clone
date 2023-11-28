@@ -6,3 +6,33 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav {
+  box-sizing: border-box;
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  padding: 12px 20px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > img {
+  height: 100%;
+}
+ul {
+  display: flex;
+  gap: 1.5rem;
+}
+li {
+  list-style: none;
+  font-weight: 500;
+}
