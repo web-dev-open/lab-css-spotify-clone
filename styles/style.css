@@ -42,5 +42,57 @@ White: #FFF
     font-family: 'Arial';
     text-align: center;
   }
- 
+ /*
+  .general-container {
+    margin: 0 auto;
+    width: 725px;
+  }
+  .left-bar {
+    float: left;
+    height: 390px;
+    padding-top: 10px;
+    width: 30%;
+  }
+  .main-content {
+    float: left;
+    height: 590px;
+    padding-top: 10px;
+    margin: 0 1%;
+    width: 30%;
+  }
+  .right-bar {
+    float: left;
+    height: 390px;
+    padding-top: 10px;
+    width: 30%;
+  }
+*/
+
+
   
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+  }
+
+  .img-container img {
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .img-container p {
+    text-align: center;
+  }
+
+  #rectangle {
+    padding-top: 1cm;
+    width: 100vw;
+    height: 100vh;
+    background-color: green; /* Change this to your desired color */
+    
+}
+
