@@ -6,3 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    transition: all 0.9s ease-in-out;
+    padding: 0;
+    
+}
+
+/* color varaible */
+:root{
+    --text-color: #1A1A1A;
+    --green-color: #00B172;
+    --white-color:  #FFF;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: var(--white-color);
+    height: 60px;
+    
+    justify-content: space-between;
+    width: 100%;
+    /* margin: auto; */
+    /* margin-top: 10px; */
+   
+}
+
+.navbar img{
+    margin-top: 2px;
+    height: 30px;
+    
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 12px 15px ;
+
+}
+.navbar ul li a:hover{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    transition: all 0.7s ease-in;
+    border-radius: 5px 5px;
+}
+.banner{
+    background: url('../images/landing.jpg') 10px;
+    height: 550px;
+    width: auto;
+    background-size: cover;
+    margin-top: 20px;
+    color: var(--white-color);
+    text-align: center;
+}
+.banner h1, .banner p{
+    transform: translateY(240px);
+}
+.banner h1{
+    font-size: 50px;
+}
+.services{
+    /* background-color: lightblue; */
+    height: 300px;
+    margin-top: 10px;
+    text-align: center;
+   
+
+
+}
+.services h3{
+    color: var(--text-color);
+    text-decoration: underline;
+    
+    text-decoration-color: var(--green-color) ;
+    
+  
+
+}
+.service-items{
+    margin-top: 70px;
+
+    height: 250px;
+    width: 30%;
+    /* background-color: white; */
+    float: left;
+    margin-left: 10px;
+    
+}
+.service-items img{
+    height: 100px;
+}
+.service-items p{
+    margin-top: 15px;
+    font-family: none;
+}
+.service-items h4{
+    color: var(--green-color);
+}
+.extra-services{
+    background-color: var(--green-color);
+    height: 650px;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    color: var(--white-color);
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.extra-service-item{
+    height: 500px;
+    width: 30%;
+    /* background-color: black; */
+
+   
+
+    
+}
+.extra-service-item h4{
+    margin-top: 20px;
+
+}
+.extra-service-item p{
+    line-height: 35px;
+    font-family: none;
+    color: var(--white-color);
+}
+
+
