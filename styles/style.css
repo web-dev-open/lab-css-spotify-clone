@@ -6,16 +6,30 @@ Green: #00B172
 White: #FFF
 
 */
+.container {
+  display: inline-block;
+  align-items: left;
+  justify-content: left;
+}
+
 .image-container {
-    position: relative;
-    display: inline-block;
-  }
+  position: relative;
+  display: inline-block;
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 0;
+  float: right;
+}
   
   .image-container img {
     display: block;
     width: 100%;
     height: auto;
+    float: left;
   }
+
   
   .overlay-text {
     position: absolute;
