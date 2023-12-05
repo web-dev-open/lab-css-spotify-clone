@@ -6,3 +6,179 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: #fff;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 30px;
+}
+.logo img{
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-right: 5px; */
+    gap: 20px;
+    list-style: none;
+    color: #1A1A1A;
+    cursor: pointer;
+}
+#hero{
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+#hero img{
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+#herotext{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herotext h1{
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 0.1cm;
+}
+#herotext p{
+    font-size: 22px;
+    margin-top: 20px;
+    letter-spacing: 0.05cm;
+    font-weight: 200;
+}
+
+#features{
+    width: 100%;
+    height: 60vh;
+}
+.heading h1{
+    text-align: center;
+    padding-top: 20px;
+    word-spacing: 0.05cm;
+    font-size: 40px;
+    font-weight: 800;
+    border-bottom: 3px solid #00B172;
+}
+
+#box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.box{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+}
+
+.box h3{
+    color: #00B172;
+    font-weight: 800;
+    font-size: 30px;
+}
+.box p{
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Bottom page CSS */
+
+#bottom{
+    width: calc(100% - 40px);
+    height: 100vh;
+    background: #00B172;
+    position: relative;
+    color: #fff;
+    margin: 80px 20px 0 20px;
+}
+
+.logow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100px;
+    height: 100px;
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec1{
+    height: 85vh;
+    width: 50%;
+}
+
+.sec1 .secb{
+    height: 25vh;
+    width: 40vw;
+    /* border: 1px solid yellow; */
+}
+.sec1 h3{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 25px;
+}
+.sec1 h1{
+    border-bottom: 2px solid #fff;
+    width: 38vw;
+    font-size: 2rem;
+}
+.sec1 p{
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.sec2 img{
+    height: 70vh;
+};
