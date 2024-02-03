@@ -6,3 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+
+  --clr-text: #1A1A1A;
+  --clr-primary: #00B172;
+
+  color: var(--clr-text);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: white;
+  padding: .5rem 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav img {
+  width: 8rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: .9rem;
+}
+
+header {
+  background-image: url(/images/landing.jpg);
+  background-size: contain;
+  background-position: 50%;
+  height: 40rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+header h1 {
+  font-size: 4rem;
+  margin-bottom: .6em;
+}
+
+header p {
+  font-size: 1.5rem;
+  color: rgb(218, 218, 218);
+}
+
+section {
+  margin-inline: 2rem;
+  padding: 4rem;
+}
+
+section h2 {
+  font-size: 1.6rem;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 3rem;
+}
+
+section h2::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -.5rem;
+  height: 3px;
+  background-color: var(--clr-primary);
+  width: 100%;
+}
+
+section[name="feature"] h2 {
+  margin-inline: auto;
+}
+
+.features {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.card {
+  width: 20rem;
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  text-align: center;
+}
+
+.card img {
+  width: 10rem;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-bottom: .6rem;
+  font-size: 1.2rem;
+  color: var(--clr-primary);
+}
+
+.card p {
+  width: 30ch;
+  justify-self: center;
+}
+
+section[name="app"] {
+  background-color: var(--clr-primary);
+  color: white;
+}
+
+section[name="app"] h2 {
+  text-align: start;
+  margin-inline: initial;
+}
+
+section[name="app"] h2::before {
+  background-color: white;
+}
+
+.function {
+  margin-bottom: 3rem;
+}
+
+.function h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section[name="app"] img {
+  align-self: center;
+  justify-self: center;
+  width: 20rem;
+}
+
+section[name="app"] img:first-of-type {
+  width: 10rem;
+}
+
