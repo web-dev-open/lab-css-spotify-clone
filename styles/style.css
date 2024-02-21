@@ -6,3 +6,124 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    padding: 0;
+    margin: 0;
+}
+.brand-logo img{
+    width: 50px;
+    height:5px;
+    margin: 5px;
+    image-resolution:auto;
+}
+.navbar{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-links ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+    color: #1A1A1A;
+    
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+.front img{
+    max-width: 100%;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    justify-content: space-evenly;
+
+}
+.p-section{
+    border-bottom: 3px solid #00B172;
+    font-size: 1.5rem;
+    border-radius: 1.5px;
+    
+}
+.sub-section img{
+    max-width: 150px;
+}
+.sub-section{
+    display: flex;
+    /* align-items:center; */
+    justify-content: space-evenly;
+    width: 100%;
+    
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    max-width: 230px;
+    /* padding: 20px; */
+    /* height: 200px; */ 
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.box p{
+    color: #1A1A1A ;
+    padding-left: 10px;
+}
+
+.box h2{
+    color: #00B172;
+}
+.section-3{
+    background-color: #00B172;
+    color:#FFF ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.logo img{
+    max-width: 100px;
+}
+.app img{
+    max-width: 270px;
+}
+.app{
+    margin: 50px;
+}
+.text{
+    padding: 20px;
+    width: 300px;
+}
+.psec2{
+    border-bottom: 2px solid #FFF;
+}
+
+.subtext{
+    display: flex;
+    flex-direction: column;
+}
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+  }
+.centered2 {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    width: 500px;
+  }
