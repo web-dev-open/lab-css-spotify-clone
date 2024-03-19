@@ -33,9 +33,15 @@ h2{
     margin: 10px;
 }
 .navigation{
-    justify-content: space-between;
+    justify-content: space-around;
+    top:0px;
+    left:0px;
+    width:100%;
     background-color: var(--white);
     align-items: center;
+    position: fixed;
+    padding: 20px;
+
 
 }
 .nav-items ul{
