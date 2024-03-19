@@ -6,3 +6,170 @@ Green: #00B172
 White: #FFF
 
 */
+:root{
+    --white: #fff;
+    --text: #1A1A1A;
+    --green:#00B172;
+    font-family: Helvetica, sans-serif;
+}
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    color: var(--text);
+}
+h2{
+    text-align: center;
+}
+.logo{
+    width: 120px;
+}
+.flex{
+    display: flex;
+}
+.container-box{
+    padding: 20px;
+    margin: 10px;
+}
+.navigation{
+    justify-content: space-around;
+    top:0px;
+    left:0px;
+    width:100%;
+    background-color: var(--white);
+    align-items: center;
+    position: fixed;
+    padding: 20px;
+
+
+}
+.nav-items ul{
+    list-style-type: none;
+    display: inline-flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-items ul li{
+    display: inline-block;
+}
+.nav-items a{
+    text-decoration: none;
+    color: var(--text)
+}
+.hero-header{
+   /* position: relative; */
+}
+.hero-banner{
+    width: 100%;
+    height: 100vh;
+}
+.hero-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    color: var(--white)
+
+}
+.hero-heading-text{
+    text-align: center;
+    font-size: 65px;
+    font-weight: lighter;
+    margin-bottom: 20px;;
+}
+.hero-text p{
+    font-weight: lighter;
+    font-size: 24px;
+}
+.whatson h3{
+    color:var(--green);
+}
+.whatson-items{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.whatson-item{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex:1;
+    min-width: 200px;
+    padding: 10px;
+
+}
+.whaton-icon{
+    width: 56px;
+}
+.whatson hr{
+    width:300px;
+    height: 4px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--green);
+    margin: 10px auto;
+}
+.yeezy{
+    background-color: var(--green);
+    color: var(--white);
+
+}
+.yeezy h2{
+    text-align: left;
+    font-weight: 100;
+
+}
+.yeezy h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.yeezy hr{
+    width:320px;
+    height: 2px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--white);
+    margin-top: 5px;
+}
+.yeezy-items{
+    background-color: var(--green);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.yeezy-item{
+    flex:1;
+}
+.spotify-icon-white{
+    width: 76px;;
+}
+.spotify-app-ss{
+    width: 250px;
+
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.yeezy-items .yeezy-item:first-of-type{
+   gap: 20px;
+   margin-top: 20px;
+   min-width: 350px;
+
+}
+.yeezy-items .yeezy-item:last-of-type{
+    gap: 20px;
+    margin-top: 20px;
+ }
+ .yeezy-items .yeezy-item:nth-child(2){
+   text-align: center;
+ }
