@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+
+nav img{
+    height: 60px;
+    width: 200px;
+    margin: 20px 30px 20px;
+}
+
+nav ul{
+    float: right;
+    display: flex;
+    width: 400px;
+    margin: 40px 30px 20px;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    color: black;
+    font-size: 20px;   
+}
+
+#landing-page{
+    padding: 20px;
+    height: 1000px;
+    width: 100%;
+    background-image: url(/images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div>h1{
+    color: white;
+    margin: 350px 410px 10px;
+    font-size: 70px;
+}
+
+#landing-page h6{
+    color: white;
+    margin: 40px 250px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#heading{
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 20px;
+    font-size: 40px;
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 5px;
+    width: 360px;
+} 
+
+#features{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 100px 170px;
+    /* border: 1px solid; */
+    height: 300px;
+}
+
+.child{
+    height: 270px;
+    width: 310px;
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+.child h2{
+    color: #00B172;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.child h6{
+    font-size: 20px;
+    font-weight: lighter; 
+    margin-top: 25px;   
+}
+
+.image{
+    height: 110px;
+    width: 140px;
+}
+
+#green-section{
+    height: 800px;
+    width: 93%;
+    background: #00B172;
+    /* margin: 100px 50px 50px; */
+    position: relative;
+    top: -50px;
+    left: 50px;
+    bottom: -100px;
+    color: white;
+}
+
+#green-section h2{
+    padding-bottom: 12px ;
+    font-size: 30px;
+    border-bottom: 4px solid white;
+    width: 408px;
+    position: relative;
+    top: 70px;
+    left: 90px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 530px;
+    width: 400px;
+    /* border: 1px solid; */
+    position: relative;
+    top: 150px;
+    left: 90px;
+}
+
+.items{
+    /* border: 1px solid white; */
+    height: 170px;
+    width: 400px;
+}
+
+#item-1{
+    height: 150px;
+}
+.items h3{
+    font-size: 30px;
+}
+
+.items p{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+#spotify-white{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -600px;
+    left: 600px;
+}
+
+#spotify-app{
+    height: 600px;
+    width: 350px;
+    position: relative;
+    top: -440px;
+    left: 800px;
+}
