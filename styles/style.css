@@ -6,3 +6,171 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+*/
+.navbar{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    padding: 7px;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+
+}
+.logo{
+    float: left;
+}
+.logo img {
+    height : 50px;
+}
+.options ul{
+    padding: 10px;
+    padding-top: 20px;
+    padding-right: 30px;
+    color: #1A1A1A;
+    float: right;
+}
+
+/*  */
+
+.landing{
+    width: 100%;
+    height: 35rem;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--white)
+}
+
+.landing h3{
+    color: white;
+    font-size: 4rem;
+    padding-bottom: 30px;
+
+}
+.landing p{
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+
+/* Info */
+
+.info{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--text);
+    padding: 2rem;
+}
+
+.info h2{
+    border-bottom: 3px solid #00B172;
+}
+
+.parts{
+
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align:center;
+
+}
+
+#part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex:1;
+    width:100%;
+    flex-direction: column;
+        
+}
+
+#part img{
+    width: 5rem;
+    height: 5rem;
+}
+#part p{
+    width: 60%;
+    color: var(--text);
+    justify-content: center;
+    text-align: center;
+}
+#part h3{
+    color: #00B172;
+}
+
+.section1{
+    background-color: #00B172;
+    color:#FFF ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.logo1 img{
+    max-width: 80px;
+}
+.app img{
+    max-width: 300px;
+}
+.app{
+    margin: 50px;
+}
+.text{
+    padding: 20px;
+    width: 400px;
+}
+.kanye{
+    border-bottom: 3px solid #FFF;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.subtext{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.subtext h3,p{
+    margin-bottom: 20px;
+}
+
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+  }
+.centered2 {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    width: 500px;
+  }
