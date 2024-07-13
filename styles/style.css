@@ -1,8 +1,276 @@
-/*
-Colors:
+body {
+    font-family: "Aptos", "Arial";
+    margin: 0 auto;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-*/
+.SpotifyLogo {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.spotify-logo-image {
+   width: auto;
+   height: 40px;
+}
+
+.rightNavBar {
+    margin-top: 25px;
+    display: flex;    
+    margin-right: 100px;
+}
+
+.rightNavBar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.rightNavBar ul li a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.rightNavBar ul li a:hover {
+     color: #00B172;
+}
+
+.music-section {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.landing {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFF;
+    width: 80%;
+    max-width: 600px;
+}
+
+.header-text {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.spotify-text {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Arial;
+}
+
+.container-spotify-description {
+    padding: 50px 20px;
+}
+
+.whats-on-spotify-section {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 900;
+    color:  #00B172;
+    font-size: 20px;
+}
+
+.icon {
+    width: 100px;
+    height: auto;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #1A1A1A;
+    font-weight: lighter;
+    font-family: "Calibri";
+}
+
+.info-content {
+    max-width: 800px; /* Adjust as needed */
+}
+
+.additional-info {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    color: white;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 90%;
+    max-width: 90%; /* Added max-width for larger screens */
+}
+
+
+.info-content {
+    flex: 1;
+    max-width: 60%;
+    text-align: left;  
+    padding-left: 50px;   
+    margin-top: -10px;   
+}
+
+.info-content h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+
+.info-content h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.info-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-column h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.info-column p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.spotify-player {
+    flex: 1;
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotify-player img {
+    max-width: 80%;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 140px;
+    margin-right: 300px;
+}
+
+.spotify-logo img {
+    width: 40%;
+    margin-right: -300px;
+}
+
+@media screen and (max-width: 412px) { /* For Android and iPhones */
+    .navbar {
+        height: auto;
+        position: fixed;
+        flex-direction: column; 
+      }
+    
+      .SpotifyLogo {
+        margin: 10px auto;
+        margin-left: 150px;
+      }
+
+      .landing {
+        width: 100%;
+        height: 100%;
+      }
+    
+      .rightNavBar {
+        margin: 10px 0;
+        margin-left: 60px;
+      }
+    
+      .music-section {
+        height: auto;
+      }
+    
+      .text-overlay {
+        width: 90%;
+      }
+    
+      .header-text {
+        font-size: 36px;
+      }
+    
+      .spotify-text {
+        font-size: 16px;
+      }
+    
+      .container-spotify-description {
+        padding: 30px 15px;
+      }
+    
+      .columns {
+        flex-direction: column;
+      }
+    
+      .column {
+        padding: 10px;
+      }
+    
+      .additional-info {
+        flex-direction: column;
+        width: 100%;
+      }
+    
+      .info-content, .spotify-player {
+        margin-left: 120px;
+        max-width: 100%;
+      }
+
+      .spotify-logo img {
+        width: 20%;
+        margin-left: 120px;    
+    }
+    
+}
