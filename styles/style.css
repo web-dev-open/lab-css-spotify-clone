@@ -6,3 +6,224 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 2rem;
+}
+
+.nav-logo {
+    background-image: url("../images/spotify-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 267px;
+}
+
+.nav-list {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    list-style-type: none;
+}
+
+/** Hero section*/
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.hero-text p:nth-of-type(1) {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.hero-text p:nth-of-type(2) {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+/** Second section*/
+.second-section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    background: #fff;
+}
+
+.second-nav span {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #00B172;
+}
+
+.content {
+    width: 90%;
+    height: 90%;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.card #card-img1 {
+    background-image: url("../images/music-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.card #card-img2 {
+    background-image: url("../images/high-quality-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.card #card-img3 {
+    background-image: url("../images/devices-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.card p:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00B172;
+}
+
+.card p:nth-of-type(2) {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    width: 70%;
+
+}
+
+.features {
+    width: 95%;
+    margin: auto;
+    height: 1000px;
+    background: #00B172;
+    padding: 100px;
+}
+
+.features .feature-title {
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.feature-content {
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-right {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.item {
+    width: 100%;
+    height: 180px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.item .item-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.item .item-desc {
+    width: 60%;
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+.feature-left{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature-left img:nth-of-type(1){
+    height: 150px;
+}
+.feature-left img:nth-of-type(2){
+    width: 400px;
+}
