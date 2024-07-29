@@ -6,3 +6,184 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  color: #1a1a1a;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  width: 95.5vw;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  background-color: #fff;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.329);
+  z-index: 99;
+}
+
+.spoty-logo {
+  height: 90%;
+  padding: 3px;
+}
+
+.header-bar-items ul {
+  display: flex;
+  list-style: none;
+  margin: 0 2rem 0 0;
+  padding: 0;
+}
+
+.header-bar-items li {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #1a1a1a;
+  padding: 10px;
+}
+
+.header-bar-items li:hover {
+  color: #00b172;
+  cursor: pointer;
+}
+
+.landing-page {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.landing-page h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.landing-page h4 {
+  margin: 10px 0 0;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.second-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-page h2 {
+  font-size: 1.5rem;
+  padding: 5px;
+  border-bottom: #00b172 solid 3px;
+}
+
+.info {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.first-info,
+.second-info,
+.third-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  margin: 0 5rem;
+}
+
+.img-info {
+  height: 6rem;
+  width: 6rem;
+  margin: 0;
+  padding: 10px;
+}
+
+.title-info-secondpage {
+  font-size: 1.5rem;
+  color: #00b172;
+  font-weight: 450;
+  margin: 0;
+  padding: 10px;
+}
+
+.subtitle-info {
+  margin: 0;
+  padding: 10px;
+}
+
+.third-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  background-color: #00b172;
+  color: white;
+  padding: 30px;
+}
+
+.left-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.left-side h2 {
+  border-bottom: white solid 3px;
+  padding: 0 0 10px;
+}
+
+.left-side,
+.right-side {
+  padding: 3rem;
+}
+.column-third-page {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.column-third-page h3 {
+  margin: 10px 0;
+}
+.column-third-page p {
+  margin: 10px 0;
+}
+.img-third-page {
+  height: 30rem;
+}
+
+.img-middle-spotify {
+  width: 7rem;
+  height: 7rem;
+}
