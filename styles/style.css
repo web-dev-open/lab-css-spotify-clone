@@ -6,3 +6,198 @@ Green: #00B172
 White: #FFF
 
 */
+:root {
+    --text-color: #1A1A1A;
+    --green-color: #00B172;
+    --white-color: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+    background-color: #FFF;
+    padding: 0.1rem;
+
+}
+
+.header-content {
+    width: 100vw;
+    /* max-width: 1280px; */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--white-color);
+}
+
+.logo-img {
+    width: 150px;
+    margin-left: 3rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+}
+
+.nav-list a {
+    color: var(--text-color);
+    transition: color 0.3s;
+}
+
+/* Content */
+/* main */
+.main {
+    margin-top: 3rem;
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    /* max-width: 1280px; */
+}
+
+.main h1 {
+    font-size: 3rem;
+}
+
+.main p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+/* features */
+
+.features {
+    margin-top: 2rem;
+}
+
+.feature-heading {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-heading h1 {
+    width: max-content;
+    border-bottom: 5px solid var(--green-color);
+}
+
+.feature-grid {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.feature-icon {
+    width: 6rem;
+    height: 5rem;
+}
+
+.item-heading {
+    color: var(--green-color);
+    font-size: 1.2rem;
+}
+
+.feature-item p {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+/* App */
+.app {
+    margin: 2rem;
+    position: relative;
+    display: flex;
+    background-color: var(--green-color);
+    padding: 1rem;
+    z-index: -1;
+    gap: 15rem;
+    padding-top: 4rem;
+}
+
+.app-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--white-color);
+    padding-left: 3rem;
+    text-align: left;
+    width: 500px;
+}
+
+.app-content h2 {
+    width: max-content;
+    border-bottom: 3px solid white;
+    font-size: 1.8rem;
+}
+
+.content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.content-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    opacity: .9;
+}
+
+.content-list-item h4 {
+    font-size: 1.4rem;
+}
+
+.content-list-item p {
+    font-size: 1rem;
+}
+
+.spotify-icon {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 50%;
+    left: 50%;
+}
+
+.app-image {
+    margin-right: 2rem;
+}
+
+.app-image img {
+    width: 320px;
+    height: 500px;
+}
