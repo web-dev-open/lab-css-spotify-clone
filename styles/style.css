@@ -78,5 +78,140 @@ li a {
 }
 
 li a:hover {
-    color: #007bff;        /* Example hover color (blue) */
+    color: #1ab16a;        /* Example hover color (blue) */
+}
+
+.content-three {
+    margin: 30px;
+}
+
+.underlined-text {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: bold;
+    text-decoration: underline;
+    text-decoration-color: #1ab16a;
+    text-underline-offset: 20px;
+}
+
+.content-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.content-item > div {
+    flex: 1 0 25%; /* Each div takes 1 flexible unit, with a minimum width of 33% */
+}
+
+.content-item-one img {
+    width: 100px;
+    height: 100px;
+}
+
+.content-item-two img {
+    width: 100px;
+    height: 100px;
+}
+
+.content-item-three img {
+    width: 100px;
+    height: 100px;
+}
+
+.content-item-one {
+    text-align: center;
+    margin: 30px;
+}
+
+.content-item-two {
+    text-align: center;
+    margin: 30px;
+}
+
+.content-item-three {
+    text-align: center;
+    margin: 30px;
+}
+
+.content-item h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #1ab16a;
+    margin: 20px;
+}
+
+.content-item p {
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.kanye {
+    background-color: #1ab16a;
+    color: white;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    position: relative;
+}
+
+.fourth-div {
+    margin: 70px;
+}
+
+.fourth-div h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-underline-offset: 20px; 
+}
+
+.fourth-div h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.fourth-div p {
+    font-family: "Roboto";
+    font-weight: 200;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourth-div-img1 img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.fourth-div-img2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+.fourth-div-img2 img {
+    width: 400px;
+    height: 600px;
 }
