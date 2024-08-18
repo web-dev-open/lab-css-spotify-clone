@@ -1,8 +1,146 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+    font-family: Arial, sans-serif;
+}
 
-*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.navbar #logo {
+    height: 40px;
+}
+
+.navbar .links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.hero-text {
+    z-index: 1;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    background-color: #f9f9f9;
+}
+
+.feature {
+    text-align: center;
+    max-width: 250px;
+}
+
+.feature img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1ED760;
+    padding: 50px;
+    color: white;
+}
+
+.promo-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start;
+}
+
+.promo-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.promo-text h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.promo-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.spotify-logo {
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.promo-image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.promo-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #777;
+    text-decoration: none;
+    font-size: 14px;
+}
