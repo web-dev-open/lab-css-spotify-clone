@@ -1,8 +1,201 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    margin: 0 auto;
+}
+:root{
 
-*/
+    --text: #1A1A1A;
+    --green: #00B172;
+    --white: #FFF;
+}
+
+
+#container1{
+   box-sizing: border-box;
+   /* border:5px solid rgb(246, 7, 47); */
+}
+/* 
+#navbar{
+    border:5px solid cyan;
+} */
+
+/* #navbar ul{
+border:5px solid green;
+} */
+
+
+
+
+
+
+#container1 #navbar{
+    box-sizing: border-box;
+    /* display:flex */
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:#fff;
+    width: 100%;
+   padding:20px;
+}
+
+#navbar img{
+   
+    padding-left: 5px;
+    height:50px;
+}
+
+#navbar ul{
+    float:right;
+}
+
+#navbar li {
+    display: inline;
+    list-style-type:none;
+    
+}
+#navbar a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 150;
+    font-size: 25px;
+    text-decoration: none;
+    padding:20px;
+    color:var(--text)
+}
+
+#navbar a:visited{
+    text-decoration: none;
+    color:var(--text);
+}
+
+#navbar a:hover{
+    color: var(--white);
+    background-color: var(--green);
+    
+}
+
+#container #cover{
+    /* background-image: url("/home/akash/openwebdev/lab-css-spotify-clone/images/landing.jpg"); */
+}
+#cover img{
+    margin: 0 auto;
+    posiion:relative;
+    width: 100%;
+}
+
+#cover p{
+    position:absolute;
+    top:80%;
+    left:20.5%;
+    width:60%;
+    text-align: center;
+    color:var(--white);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight:100px;
+    /* line-height: 50px; */
+    padding:30px;
+}
+
+#cover h1{
+    position:absolute;
+    top:70%;
+    left:20.5%;
+    width: 60%;
+    text-align: center;
+    color:var(--white);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 70px;
+    padding:15px;
+}
+
+#container2{
+    /* border:5px solid red; */
+    
+}
+
+#container2 h1{
+    text-align: center;
+    color: var(--text);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+#feature-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    /* border: solid; */
+    padding: 15px;
+    
+}
+#feature-container h2{
+    color:var(--green);
+    font-size: 30px;
+    /* padding: 15px; */
+}
+.feature{
+    padding:25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight:200;
+    width:15%;
+    height: 270px;
+    /* background-color: red; */
+    /* border:solid; */
+    color: var(--text);
+}
+
+.feature img{
+    margin: 0 auto;
+    width:50%;
+}
+
+
+#container3{
+    box-sizing: border-box;
+    /* border:5px solid purple ; */
+    margin:0 auto;
+    width:95    %;
+    background-color: var(--green);
+    color:var(--white);
+    padding: 80px;;
+}
+
+#container3 h1{
+    border-bottom:3px solid var(--white);
+    display:inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+#highlight-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:600px;
+}
+#highlight-container>.highlight{
+    box-sizing: border-box;
+    /* border:solid; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200px;
+    font-size: 23px;
+    width:30%;
+    padding: 10px;
+
+}
+
+#highlight-container img{
+    margin:0 auto;
+    height: 600px;
+}
+
+
+#logo img{
+    margin:0 auto;
+    height: 150px;
+    /* width:100%; */
+}
