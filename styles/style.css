@@ -1,8 +1,195 @@
-/*
-Colors:
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: lighter; */
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* Navbar Styles */
+nav {
+    display: flex; /* Enables flexible box layout for the navigation bar */
+    align-items: center; /* Vertically centers items within the navigation bar */
+    justify-content: space-between; /* Distributes space between items, with the first item aligned to the start and the last item to the end */
+    padding: 20px 40px; /* Added padding to the navbar */
+    background-color: white; /* Background color of the navbar */
+}
 
-*/
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display list items in a row */
+    gap: 20px; /* Space between the list items */
+    margin: 0; /* Ensure no margin around the list */
+    padding: 0; /* Ensure no padding around the list */
+}
+
+.nav-links li {
+    padding: 10px 15px; /* Added padding to individual items */
+}
+
+.nav-links li a {
+    color: black; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make text bold */
+    display: block; /* Ensures the anchor tag takes up the full li space */
+}
+
+.nav-links li a:hover {
+    color: #000; /* Change text color on hover */
+}
+
+.logo img {
+    width: 120px; /* Logo size */
+    height: auto; /* Maintain aspect ratio of the logo */
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background-image: url("../images/landing.jpg"); /* Background image for the hero section */
+    background-size: contain; /* Image scaling */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: white; /* Text color */
+    text-align: center; /* Center-align text */
+    flex-direction: column; /* Stack content vertically */
+}
+
+.hero-section h1 {
+    font-size: 4em; /* Heading font size */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.hero-section p {
+    font-size: 1.5em; /* Paragraph font size */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.hero-section button {
+    padding: 15px 30px; /* Button padding */
+    background-color: #1db954; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Button font size */
+    font-weight: bold; /* Bold text */
+}
+
+/* Spotify Features Section */
+.spotify-features {
+    text-align: center; /* Center the header and the container */
+    padding: 50px 0; /* Padding for the section */
+    background-color: #f7f7f7; /* Background color */
+}
+
+.header {
+    display: inline-block; /* Ensure the header is only as wide as its content */
+    position: relative; /* Create a positioning context for the pseudo-element */
+    margin-bottom: 50px; /* Add spacing below the header */
+    padding-bottom: 5px; /* Add space between the text and the line */
+    text-align: center; /* Center-align header text */
+}
+
+.header::after {
+    content: ""; /* Empty content for the underline */
+    position: absolute; /* Position relative to the header */
+    left: 0; /* Start from the left */
+    bottom: 0; /* Place at the bottom of the header */
+    width: 100%; /* Full width underline */
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: #1db954; /* Underline color */
+    transform: translateY(5px); /* Space between text and underline */
+}
+
+.features-container {
+    display: flex; /* Display features in a row */
+    justify-content: space-around; /* Space features evenly */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+}
+
+.feature {
+    text-align: center; /* Center-align feature content */
+    flex: 1 1 30%; /* Flex items take up 30% of container width */
+    padding: 0 20px; /* Horizontal padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.feature img {
+    width: 80px; /* Icon size */
+    margin-bottom: 20px; /* Space below the icon */
+}
+
+.feature h2 {
+    font-size: 1.5em; /* Heading font size */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #1db954; /* Heading color */
+}
+
+.feature p {
+    color: #666; /* Paragraph text color */
+}
+
+/* Green Section */
+.green-section {
+    background-color: #1db954; /* Section background color */
+    color: white; /* Text color */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 50px; /* Padding for the section */
+}
+
+.green-section .content {
+    display: flex; /* Flexbox for content */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Maximum width of the content */
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Space content evenly */
+}
+
+.green-section .text {
+    flex: 1; /* Text takes up equal space */
+    padding-right: 50px; /* Space between text and image */
+}
+
+.green-section h2 {
+    font-size: 2em; /* Heading font size */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.green-section .features {
+    margin-top: 20px; /* Space above the features list */
+}
+
+.green-section .feature-item {
+    margin-bottom: 20px; /* Space below each feature item */
+}
+
+.green-section .feature-item h3 {
+    font-size: 1.5em; /* Feature item heading size */
+    margin-bottom: 10px; /* Space below the feature item heading */
+}
+
+.green-section .feature-item p {
+    font-size: 1.2em; /* Feature item paragraph size */
+    margin: 0; /* Remove margin */
+}
+
+.green-section .image {
+    flex: 1; /* Image takes up equal space */
+    position: relative; /* Position context for child elements */
+    max-width: 400px; /* Maximum width of the image container */
+}
+
+.green-section .image img {
+    max-width: 100%; /* Image scales to fit container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Block-level image */
+}
+
+.green-section .spotify-logo {
+    position: absolute; /* Position relative to the image container */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    width: 60px; /* Logo size */
+}
