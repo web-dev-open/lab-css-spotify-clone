@@ -1,8 +1,305 @@
-/*
-Colors:
+/* 
+/* Colors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+*/ 
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:   
+ #1DB954;
+    color: white;
+    padding: 15px;
+}
+
+header img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color:black;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+}
+.feature img{
+    width:100px;
+    height:100px;
+}
+
+.artist-profile {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.latest-release {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #1DB954;
+    color: white;
+    padding: 15px;
+    text-align: center;
+} */ 
+
+
+/* ____________________________________________________ */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+/* body{
+    margin:8px;
+    background-color: rgb(51, 50, 50);
+} */
+
+header{
+    height:auto;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.header-logo{
+    width:40%;
+    height:auto;
+    margin:10px 30px;
+}
+.header-logo img{
+    height:80px;
+    width:250px;
+}
+nav{
+   width:60%;
+    height:auto;
+    
+    /* align-items:center; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-ul {
+    list-style: none;
+
+}
+.header-ul li{
+    display:inline;
+  
+    font-size:20px;
+    margin:10px;
+}
+.header-ul li a{
+    text-decoration: none;
+    color:black;
+    margin:0 16px;
+    
+}
+
+
+
+.hero{
+    height:100vh;
+    
+    background-image: url("D:/Palak Jain/web-dev/lab-css-spotify-clone/images/landing.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero .headings-hero{
+    color:#FFF;
+    /* line-height:1.6em; */
+}
+.headings-hero h1{
+    font-size:4rem;
+    font-weight:bold;
+    margin:3px;
+}
+.headings-hero p{
+    font-size:1.6rem;
+    font-weight: lighter;
+    margin:2px;
+    /* line-height:  */
+    text-align: center;
+}
+
+.about{
+    height:auto;
+    width:100%;
+    background-color: #FFF;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.heading-about{
+    align-self: center;
+    /* width:40%; */
+    padding:10px;
+    font-size:1.9rem;
+    color:black;
+    text-align: center;
+    margin:70px 30px;
+    
+}
+.heading-about h3{
+    border-bottom: 4px solid #00B172;
+}
+.about-content{
+    align-self: center;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.about-content .feature{
+    height:300px;
+    width:30%;
+    margin:30px;
+}
+.feature img{
+    width:100px;
+    height: 80px;
+    margin:4px 10px;
+    margin-left:100px;
+    /* align-self: center; */
+
+}
+.feature h4{
+    color:#00B172;
+    font-size:22px;
+    margin:15px;
+    text-align: center;
+}
+
+.feature p{
+    text-align: center;
+    line-height: 1.1em;
+}
+
+footer{
+    margin: 40px;
+    background-color: #00B172;
+    height: 100vh;
+    width: 95%;
+    color:white;
+     display:flex; 
+     justify-content:space-around;
+     /* align-items: center; */
+    
+    
+}
+.footer-section{
+    margin:60px 0 0 60px;
+    width:50%;
+
+
+}
+.f-heading{
+    width:50%
+}
+.f-head h2{
+   font-size:28px;
+   border-bottom:3px solid #FFF; 
+   margin:10px 0;
+
+}
+.first-sec{
+    display:flex;
+    
+    justify-content:space-between;
+    align-items: center;
+
+}
+.footer-div{
+    width:60%;
+    height:auto;
+}
+.ftr-box{
+    width:70%;
+    height: 200px;
+    margin:20px 0;
+    line-height: 1.5em;
+}
+.ftr-box h4{
+    font-size: 25px;
+    margin:5px 0;
+    font-weight: bold;
+
+}
+.ftr-box p{
+    font-size: 22px;
+    font-weight: 100;
+}
+.ftr-img img{
+    width:150px;
+    height:150px;
+    margin:30px;
+}
+
+.footer-img{
+    margin:60px 0;
+    align-self: center;
+}
+.section-img{
+    margin:20px 20px;
+
+}
+
+.section-img img{
+    align-self: center;
+    width:300px;
+    height:560px;
+}
