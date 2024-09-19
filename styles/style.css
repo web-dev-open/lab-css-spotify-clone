@@ -1,3 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 13vh;
+    margin-inline :20px; 
+}
+
+.navbar>.tab{
+display: flex;
+align-items: center;
+}
+
+.tab>h1{
+    font-weight: 90;
+    color: #1A1A1A;
+    margin-right: 0.7rem; 
+    font-size: 1.3rem;
+    font-family:  Arial, sans;
+}
+
+.navbar>img{
+height: 60px;
+}
+
+.banner{
+    background: url(/lab-css-spotify-clone/images/landing.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans;
+    color: #fff;
+}
+.banner>h1:nth-child(1){
+    font-size: 15vh;
+    margin-bottom: 5vh;
+}
+
+.banner>p{
+    font-size: 5vh;
+    text-align: center;
+   font-stretch: condensed;
+   letter-spacing: 0.2vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, sans;
+    justify-content: center;
+    align-items: center;
+    margin-block:4vh ;
+}
+.content>h1{
+    font-weight: 700;
+    padding: 6px;
+   border-bottom:4px solid #00B172;
+}
+
+.content>.cards{
+    margin-top:5vh ;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.card>img{
+    height: 13vh;
+}
+.card>h2{
+    color: #00B172;
+    margin-inline:2px ;
+}
+.card>p{
+    margin-top: 1.5rem;
+    font-size: 18px;
+    font-stretch: narrower;
+    word-spacing: 2px;
+    color: #868686;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    margin-inline :20px; 
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    padding-inline: 70px;
+    margin-bottom: 30px;
+    color: white;
+    position: relative;
+    font-family: Arial, Helvetica, sans;
+    padding-bottom: 10vh;
+}
+
+.feature h1{
+    border-bottom: 4px solid white;
+    font-weight: 500;
+
+}
+
+.feature{
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer img:nth-child(2){
+height: 20vh;
+}
+
+.footer img:nth-child(3){
+    margin-top: 50px;
+    height: 35vw;
+    }
+
+    .desc{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .desc p{
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-stretch: narrower;
+    }
 /*
 Colors:
 
