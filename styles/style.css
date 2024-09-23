@@ -6,3 +6,121 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 16px;
+    height: 72px;
+    
+}
+nav img{
+    width: 200px;
+    margin: 12px auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+ul{
+    list-style: none;
+}
+
+.banner img {
+    width: 100%;
+    /* height: calc(100vh-10px); */
+    height: 90vh;
+}
+.banner{
+    position: relative;
+}
+.text-container{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.text-container h1{
+    margin-bottom: 12px;
+}
+
+.mid-container{
+    width: 100%;
+    height: 50vh;
+    padding: 18px;
+}
+.mid-container h2{
+    text-align: center;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px;
+    margin: 24px auto;
+    
+}
+.icons img{
+    width: 92px;
+}
+.icons{
+    padding: 12px;
+    text-align: center;
+
+}
+.icons h3{
+    color: #00B172;
+    margin-top: 6px;
+}
+.icons p{
+    color: #1A1A1A;
+    margin-top: 12px;
+}
+.green-section{
+    background-color: #00B172;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF;
+    height: 100vh;
+}
+
+.green-section .white-logo img{
+    width: 120px;
+}
+.spotify-play img{
+    width: 220px;
+}
+.text-section{
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.text-section h3{
+    margin-top: 24px;
+}
+.text-section p{
+    margin-top: 16px;
+}
+.spotify-play{
+    padding: 32px;
+}
+#underline{
+    height: 2px;
+    color: #FFF;
+
+}
