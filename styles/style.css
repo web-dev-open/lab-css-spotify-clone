@@ -1,8 +1,138 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+*{
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+    font-family: 'Arial';
+}
+.navbar{
+    background-color: white;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#spotify-logo{
+    height: 65px;
+    width: auto;
+    margin: 15px;
+}
+.navbar-links{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-links ul{
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    margin: 15px;
+    gap: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+#landing-image{
+    height: 100%;
+    width: 100%;
+}
+.landing-text{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.landing-text h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.landing-text p{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.about-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 40px;
+}
+.about-spotify{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.about-spotify img{
+    height: 100px;
+    width: auto;
+}
+#songs h2{
+    color: #00B172;
+    padding-top: 10px;
+    font-size: 30px;
+}
+#songs p{
+    padding-top: 15px;
+    color: #333333;
+    font-size: 25px;
+}
+.green-screen{
+    background-color: #00B172;
+    max-width: 1600px;
+    margin-left: 50px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.green-screen h1,h2,p{
+    color: white;
+}
+#spotify-icon-white{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    float: left;
+}
+#spotify-app{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    object-fit: contain;
+}
+.green-screen h3{
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    padding-top: 5rem;
+    padding-left: 3rem;
+}
+.green-screen hr{
+    height: 2px;
+    background-color: white;
+}
+.green-left ul{
+    list-style-type: none;
+}
+.green-left li,h2,p{
+    padding: 20px;
+}
+.green-left h2{
+    padding: 25px;
+    font-size: 30px;
+}
+.green-left p{
+    font-size: 25px;
+    font-weight: 50;
+    margin-left: 10px;
+}
