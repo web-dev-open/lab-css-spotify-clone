@@ -1,8 +1,137 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
 
-*/
+.logo {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+    width: 100%; 
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-left: auto; 
+}
+
+.main-banner {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+}
+
+
+.features {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.features h2 {
+    text-decoration: underline;
+    text-decoration-color: #02a33a;
+}
+
+.features h3 {
+    font-size:larger;
+    color: #02a33a;
+    margin-bottom: 20px;
+}
+
+.feature-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+.feature img {
+    height: 50px; 
+    margin-bottom: 10px;
+}
+
+.kanye-section {
+    display: flex; 
+    padding: 60px 50px;
+    background-color: #5cb77c; 
+    color: white;
+    position: relative; 
+}
+
+.kanye-text {
+    width: 60%;
+    padding-right: 30px;
+    position: relative;
+}
+.kanye-text h3{
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.kanye-text h2{
+    margin-bottom: 10px;
+}
+
+.spotify-logo-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 10%; 
+}
+
+.spotify-white-logo {
+    width: 70px; 
+    padding-right: 25px;
+}
+
+
+.kanye-image {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kanye-image img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.kanye-text p {
+    margin-bottom: 10px; 
+}
