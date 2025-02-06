@@ -1,8 +1,139 @@
-/*
-Colors:
+body{
+    font-size: larger;
+    margin: 100px;
+}
+.allheader{
+    border: 5px solid palevioletred;
+    height: 60em;
+}
+.head{
+    border: 5px solid lightgreen;
+    
+}
+.logo{
+    width: 20em;
+    height: 6em;
+    position: relative;
+    float: left;
+}
+.headlist {
+    display: inline-flex;
+    gap: 10px;
+    float: right;
+    margin-right: 100px;
+    border: 5px solid green;
+}
+.headlist li{
+    list-style: none;
+    font-size: 50px;
+    margin: 10px;
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+}
+.secondpage{
+    text-align: center;
+    background-image: url("images/landing.jpg");
+    height: 50em;
+    width: 100%;
+    background-size: contain;
+    justify-content: center;
+    position: relative;
+    top:200px;
+    
+}
+.textcontainer{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    gap: 50em;
+    font-size: 50px;
+}
+.thirdpagefull{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    border: 10px solid red;
+}
+.thirdhead{
+    display: inline;
+    margin-top: 60px;
+    font-size: 60px;
+    border-bottom: 5px solid green;
+}
+.thirdpage{
+    display: inline-flex;
+    gap: 200px;
+    border:5px solid orangered ;
+    margin: 30px 30px 30px 30px;
+}
+.millions{
+    border: 10px solid yellow;
+    margin: 50px;
+    padding: 30px;
+    font-size: 40px;
+}
+.milimg{
+    background-size: contain;
+    height: 300px;
+    width: 500px;
+}
+.HD{
+    border: 10px solid yellow;
+    margin: 50px;
+    padding: 30px;
+    font-size: 40px;
 
-*/
+}
+.HDimg{
+    background-size: contain;
+    height: 300px;
+    width: 500px;
+}
+.Stream{
+    border: 10px solid yellow;
+    margin: 50px;
+    padding: 30px;
+    font-size: 40px;
+}
+.stimg{
+    background-size: contain;
+    height: 300px;
+    width: 500px;
+}
+.thirdtext{
+    color: green;
+}
+.lastpage{
+    border: 10px solid purple;
+    height: 70em;
+    position: relative;
+    top: 300px;
+    background: green;
+
+}
+.lastcontainer{
+    margin: 200px;
+    float: left;
+    font-size: 40px;
+    color: white;
+    height: 500px;
+}
+.lastimg{
+    float: right;
+    height: 45em;
+    margin-top: 300px ;
+    margin-right: 200px;
+}
+.lastimgcenter{
+    text-align: center;
+    height: 300px;
+    background-size: contain;
+    position: relative;
+    top: 50%;
+    
+    
+}
+.lasthead{
+    border-bottom: 4px solid white;
+}
