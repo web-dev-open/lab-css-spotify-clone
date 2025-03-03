@@ -1,8 +1,219 @@
-/*
-Colors:
+/* General Styles */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+/* Navbar */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px; /* Thinner navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Ensure "Download" link fits in viewport */
+@media (max-width: 1024px) {
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Hero Section */
+.hero {
+    background: url("../images/landing.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* What's on Spotify Section */
+.features {
+    text-align: center;
+    padding: 50px;
+}
+
+.section-title {
+    font-size: 28px;
+    text-align: center;
+    color: #1A1A1A;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #00B172;
+    margin: 5px auto 0;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+}
+
+.feature h3 {
+    color: #00B172;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Green Section */
+.green-section {
+    background: #00B172;
+    color: white;
+    padding: 50px;
+    text-align: left;
+}
+
+.white-title {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.white-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.green-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section {
+    width: 30%;
+}
+
+.text-section h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text-section p{
+    font-weight: 100;
+}
+
+.icon-section img {
+    width: 80px;
+}
+
+.image-section img {
+    width: 250px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .whats-on-spotify .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .green-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .green-content,
+    .green-icon,
+    .green-image {
+        width: 80%;
+    }
+
+    .green-icon {
+        margin: 20px 0;
+    }
+}
