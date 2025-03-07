@@ -1,8 +1,63 @@
-/*
-Colors:
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: black;
+}
 
-*/
+.navbar .logo {
+  width: 100px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("../images/spotify-background.jpg");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.green-section {
+  background-color: #1db954;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+
+.spotify-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
