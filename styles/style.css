@@ -6,3 +6,93 @@ Green: #00B172
 White: #FFF
 
 */
+
+.main{
+    background-color: rgb(64, 60, 62);
+    border: 5px solid black;
+}
+.nav{
+    /* margin: 50px; */
+}
+.a{
+    background-color: white;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+.b{
+    background-image: url('../images/landing.jpg');
+    background-size: cover;       /* This makes the image cover the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 97vh;                /* Ensure the div has some width */
+    height: 100vh; 
+    color: white;
+}
+.c{
+    background-color: rgb(251, 251, 245);
+    width: 97vh;                /* Ensure the div has some width */
+    height: 100vh;
+
+}
+.d{
+    background-color: rgb(58, 198, 109);
+    width: 97vh;              
+    height: 100vh;
+    color: white;
+}
+.m{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.m2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10;
+}
+.logo{
+    height: 70px;
+    width: 150px;
+}
+#img1{
+    border: 1px solid black;
+}
+#img2{
+    border: 1px solid black;
+}
+#img3{
+    border: 1px solid black;
+}
+.img1{
+    height: 150px;
+    width: 150px;
+    /* padding: 40px; */
+}
+.img2{
+    height: 150px;
+    width: 150px;
+    /* padding: 40px; */
+}
+.img3{
+    height: 150px;
+    width: 150px;
+    /* padding: 40px; */
+}
+.img4{
+    width: 30vh;              
+    height: 60vh;  
+}
+.img5{
+    width: 100px;              
+    height: 100px;
+ 
+}
+.underline{
+    text-decoration: underline white;
+    
+}
