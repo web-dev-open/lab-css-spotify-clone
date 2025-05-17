@@ -1,8 +1,249 @@
-/*
-Colors:
+/* Color Palette */
+:root {
+    --spotify-green: #00B172;
+    --spotify-yellow: #f4d10c;
+    --spotify-black: #1a1a1a;
+    --spotify-white: #fff;
+    --text-gray: #222;
+    --text-light: #666;
+    --border-radius: 10px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+/* Reset and base styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-*/
+html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    background: var(--spotify-white);
+    color: var(--text-gray);
+}
+
+body {
+    min-height: 100vh;
+    background: var(--spotify-white);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    background: var(--spotify-white);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    max-width: 140px;
+    height: auto;
+}
+
+#nav-items {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+#nav-items li a {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+}
+
+
+.hero {
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    color: var(--spotify-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 1rem 2rem 1rem;
+}
+
+.hero_text h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero_text p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: var(--spotify-white);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.features {
+    padding: 2rem 1rem;
+    background: var(--spotify-white);
+}
+
+.features-title-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.features-title-container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.features-title-container h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 60%;
+    height: 5px;
+    background: var(--spotify-green);
+    border-radius: 2px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.cards-item {
+    background: var(--spotify-white);
+    border: 3px solid var(--spotify-yellow);
+    border-radius: var(--border-radius);
+    width: 320px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+
+
+.cards-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-text h3 {
+    color: var(--spotify-green);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+
+.card-text p {
+    color: var(--text-light);
+    font-size: 1.05rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.ui-features {
+    display: flex;
+    align-items: center;
+    background-color: var(--spotify-green);
+    color: var(--spotify-white);
+    padding: 3rem 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.ui-features-text {
+    flex: 1 1 350px;
+    min-width: 300px;
+}
+
+.ui-features-title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+}
+
+.ui-features-title h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 60%;
+    height: 5px;
+    background: var(--spotify-white);
+    border-radius: 2px;
+}
+
+.ui-features dl {
+    margin-top: 1.5rem;
+}
+
+.ui-features dt {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    color: var(--spotify-white);
+}
+
+.ui-features dd {
+    font-size: 1.05rem;
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+    color: var(--spotify-white);
+    opacity: 0.95;
+}
+
+.spotify-logo {
+    width: 60px;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.spotify-app {
+    width: 320px;
+    max-width: 90vw;
+    border-radius: var(--border-radius);
+    margin-left: 2rem;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    font-size: 1rem;
+    color: var(--text-light);
+    background: var(--spotify-white); }
