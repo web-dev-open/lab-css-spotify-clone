@@ -1,8 +1,137 @@
-/*
-Colors:
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #222;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  
+  .features {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+  }
+  
+  .features h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-decoration-color: #1db954;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 200px;
+  }
+  
+  .card img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    color: #1db954;
+  }
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
+  .kanye {
+    background-color: #1db954;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .kanye-text,
+  .kanye-logo,
+  .kanye-img {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .kanye-logo img {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .kanye-text {
+    max-width: 300px;
+    padding-left: 100px;
+  }
+  
+  .kanye-img img {
+    height: 300px;
+  }
+  
+  .kanye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .kanye-text h2 {
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
