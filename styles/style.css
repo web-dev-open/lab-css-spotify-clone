@@ -28,3 +28,11 @@ White: #FFF
     width: 150px;
     height: 50px;
 }
+
+.header1-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 100%;
+    height: 100%;
+}
