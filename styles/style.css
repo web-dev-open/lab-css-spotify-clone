@@ -6,3 +6,25 @@ Green: #00B172
 White: #FFF
 
 */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    height: 50px;
+}
