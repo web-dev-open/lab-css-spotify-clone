@@ -100,7 +100,7 @@ White: #FFF
 }
 
 .body2 {
-    background-color: lightblue;
+    background-color:mediumseagreen;
     padding: 20px 0;
 }
 
@@ -114,8 +114,13 @@ White: #FFF
     flex-wrap: wrap;
 }
 .body2-text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
     flex: 1 1 300px;
-    text-align: center;
+    text-align:start;
+    color: #fff;
+
 }
 .body2-text h2 {
     margin-bottom: 15px;
@@ -127,4 +132,15 @@ White: #FFF
 .body2a-img img {
     width: 200px;
     height: 200px;
+}
+
+.body2b-img img {
+    width: 300px;
+    height: 300px;
+}
+.body2a-img, .body2b-img {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
