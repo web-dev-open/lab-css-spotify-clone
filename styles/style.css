@@ -93,3 +93,8 @@ White: #FFF
     width: 60px;
     height: 60px;
 }
+
+.header2 {
+    text-align: center;
+    margin: 20px 0;
+}
