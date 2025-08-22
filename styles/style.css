@@ -26,6 +26,9 @@ White: #FFF
     display: flex;
     justify-content: flex-end;
     gap: 15px;
+    list-style-type: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -77,6 +80,8 @@ White: #FFF
     padding: 20px;
     border-radius: 8px;
     text-align: center;
+    font-size:larger;
+    flex-wrap: wrap;
 }
 
 .header3_1, .header3_2, .header3_3 {
@@ -129,13 +134,13 @@ White: #FFF
 }
 
 .body2a-img img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .body2b-img img {
     width: 300px;
-    height: 300px;
+    height: 450px;
 }
 .body2a-img {
     flex: 1 1 150px;
