@@ -120,11 +120,8 @@ White: #FFF
     flex: 1 1 300px;
     text-align:start;
     color: #fff;
+}
 
-}
-.body2-text h2 {
-    margin-bottom: 15px;
-}
 .body2-text p {
     line-height: 1.5;
 }
@@ -143,4 +140,21 @@ White: #FFF
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.body2-header {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.header3_1 h3 {
+    color: mediumseagreen;
+}
+
+.header3_2 h3 {
+    color: mediumseagreen;
+}
+
+.header3_3 h3 {
+    color: mediumseagreen;
 }
