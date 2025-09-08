@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    padding: 36px;
+    margin-top: 2px;
+    margin-left: 2px;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    width: 94%;
+    gap: 29px;
+    font-size: 23px;
+}
+
+.main-headers{
+    margin-top: -600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 30px;
+}
+
+.on-spotify{
+    margin-top: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(78, 30, 30);
+}
+
+.landing-logo{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.Spotify-logo{
+    position: fixed;
+    top: 19px;
+    left: 27px;
+    height: 65px;
+    width: auto;
+}
+
+.icons-container{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 290px;
+}
+.icon-box img{
+    height: auto;
+    width: 130px;
+}
+.icon-box p{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.icon-box p b {
+    color: #00B172;
+}
+
+.app-container{
+    background-color: #00B172;
+    padding: 200px 200px 10px 200px;
+    margin: 40px;
+    box-sizing: border-box;
+    max-height: calc(100vh + 250px);
+}
+
+.spotify-app{
+    height: 630px;
+    width: 350px;
+    margin-top: -90px;
+    margin-left: 550px;
+}
+
+.app-container h3{
+    font-size: 38px;
+    position: relative;
+    top: -700px;
+    left: -120px;
+    color: white;
+}
+
+.app-container p{
+    font-size: 23px;
+    position: relative;
+    top: -700px;
+    left: -120px;
+    max-width: 370px;
+    color: white;
+}
+
+.spotify-icon-white{
+    height: auto;
+    position: relative;
+    width: 130px;
+    left: 580px;
+    top: -520px;
+}
